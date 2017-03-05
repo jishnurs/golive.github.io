@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>goLive Eventers</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Furnished Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->		
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
+
+	<script src="js/jquery.min.js"> </script>
+	
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="header-nav">
+			<div class="container">
+				
+				<div class="navigation">
+					<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+						<div class="container"> 
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span> <span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<!-- <a class="navbar-brand page-scroll" href="#page-top">Go Live</a> -->
+								<div class="navbar-brand page-scroll">
+									<a href="index.html"><img src="images/logo/logo.png" /></a>
+								</div>
+							</div>
+							
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="index.html" class="page-scroll">Home</a></li>
+									<li><a href="about.html" class="page-scroll">About</a></li>
+									<li><a href="services.html" class="page-scroll">Services</a></li>
+									<li><a href="gallery.html" class="page-scroll">Gallery</a></li>
+									<li><a href="contact.html" class="page-scroll">Contact</a></li>
+								</ul>
+							</div>
+							<!-- /.navbar-collapse --> 
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- script-for-menu -->
+	<script>
+		$("span.menu").click(function(){
+			$(".top-nav ul").slideToggle("slow" , function(){
+			});
+		});
+	</script>
+	<!-- script-for-menu -->
+	<div class="banner-left">
+		<!-- banner-text Slider starts Here -->
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+							// You can also use "$(window).load(function() {"
+
+			$(function () {
+				$("#slider3").responsiveSlides({
+					auto: true,
+					pager:false,
+					nav:true,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+						$('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+						$('.events').append("<li>after event fired.</li>");
+					}
+				});	
+			});
+		</script>
+		<!--//End-slider-script -->
+		<div class="banner-title"> 
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner-slide banner5">
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>	
+	<!--about-->
+	<div class="content">
+		<div class="container">
+			<div class="about">
+				<h2>Services</h2>
+				<div class="about-bottom">
+
+					<!--grids --> 
+					<div class="popular-w3">
+						<div class="popular-grids">
+							<div class="col-md-4 popular-grid">
+								<img src="images/services/11.jpg" class="img-responsive" alt=""/>
+								<div class="popular-text">
+									<!-- <i class="fa fa-home" aria-hidden="true"></i> -->
+									<h5>Wedding Planning</h5>
+									<div class="detail-bottom">
+										<ul>
+											<li>Matrimony Services</li>
+											<li>Invitation card</li>
+											<li>Cinegraphy & photography</li>
+											<li>Venue booking</li>
+											<li>Floral decoration</li>
+											<li>Nadhaswaram & Religious Orchestra</li>
+											<li>Food & beverages</li>
+											<li>Beautification & costume designing</li>
+											<li>Luxuary cars</li>
+											<!-- <li>Grand entry</li> -->
+											<!-- <li>Wedding cakes</li> -->
+											<!-- <li>Bachelor parties / hen parties</li> -->
+											<!-- <li>Honeymoon packages</li> -->
+											<!-- <li>Light music & DJs</li> -->
+										</ul>
+									</div>
+									<div class="w3-button">
+										<a href="single.html">Know more</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 popular-grid">
+								<img src="images/services/13.jpg" class="img-responsive" alt=""/>
+								<div class="popular-text">
+									<!-- <i class="fa fa-envira" aria-hidden="true"></i> -->
+									<h5>College Events</h5>
+									<div class="detail-bottom">
+										<ul>
+											<li>Stage & art decoration</li>
+											<li>Pro-show</li>
+											<li>Celebrity management</li>
+											<li>Photography & videography</li>
+											<li>Website</li>
+											<li>Teaser video & posters</li>
+											<li>Sponsorships</li>
+											<li>Media patners</li>
+											<li>Charity fund</li>
+										</ul>
+									</div>
+									<div class="w3-button">
+										<a href="single.html">Know more</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 popular-grid">
+								<img src="images/services/15.jpg" class="img-responsive" alt=""/>
+								<div class="popular-text">
+									<!-- <i class="fa fa-building" aria-hidden="true"></i> -->
+									<h5>Birthday Party</h5>
+									<div class="detail-bottom">
+										<ul>
+											<li>Birthday cakes
+											<li>Decoration</li>
+											<li>Food & beverages</li>
+											<li>Photography</li>
+											<li>Venue booking</li>
+											<li>Gift</li>
+											<li>Costume designing</li>
+											<br>
+											<br>
+											<br>
+										</ul>
+									</div>
+									<div class="w3-button">
+										<a href="single.html">Know more</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 popular-grid">
+								<img src="images/services/18.jpg" class="img-responsive" alt=""/>
+								<div class="popular-text">
+									<!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
+									<h5>Star Night</h5>
+									<div class="detail-bottom">
+										<ul>
+											<li>Venue booking</li>
+											<li>Art design</li>
+											<li>Light & sounds</li>
+											<li>Disco jockeys</li>
+											<li>Food & beverages</li>
+											<li>Event promotions</li>
+											<li>Props</li>
+										</ul>
+									</div>
+									<div class="w3-button">
+										<a href="single.html">Know more</a>
+									</div>
+								</div>
+							</div>
+							
+							<!-- <div class="clearfix"></div> -->
+							<div class="col-md-4 popular-grid">
+								<img src="images/services/14.jpeg" class="img-responsive" alt=""/>
+								<div class="popular-text">
+									<!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
+									<h5>Public Events</h5>
+									<div class="detail-bottom">
+										<ul>
+											<li>Light & sounds</li>
+											<li>Art works</li>
+											<li>Celebrity Management</li>
+											<li>Advertisement</li>
+											<!-- <li>Guards</li> -->
+										</ul>
+									</div>
+									<div class="w3-button">
+										<a href="single.html">Know more</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 popular-grid">
+								<img src="images/services/17.jpg" class="img-responsive" alt=""/>
+								<div class="popular-text">
+									<!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
+									<h5>Product Launch</h5>
+									<div class="detail-bottom">
+										<ul>
+											<li>Venue booking</li>
+											<li>Art design</li>
+											<li>Advertisement</li>
+											<li>Celebrity Management</li>
+										</ul>
+									</div>
+									<div class="w3-button">
+										<a href="single.html">Know more</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 popular-grid">
+								<img src="images/services/12.jpg" class="img-responsive" alt=""/>
+								<div class="popular-text">
+									<!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
+									<h5>Exhibitions</h5>
+									<div class="detail-bottom">
+										<ul>
+											<li>Venue booking</li>
+											<li>Light & sounds</li>
+											<li>Event promotions</li>
+										</ul>
+									</div>
+									<div class="w3-button">
+										<a href="single.html">Know more</a>
+									</div>
+								</div>
+							</div>
+							
+							
+
+						</div>
+					</div>
+					<!-- //grids --> 
+
+				</div>
+
+				<!---->
+		<!-- <div class="bottom-grid">
+			<h3>Furniture Design</h3>
+			<div class="col-md-4 bottom-grids">
+				<a href="single.html" ><img class="img-responsive" src="images/vi.jpg" title="name" alt="" ></a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at accumsan justo. Vivamus eget volpat lacus nec tristique leoestibulum.</p>
+			</div>
+			<div class="col-md-4 bottom-grids">
+				<a href="single.html" ><img class="img-responsive" src="images/vi1.jpg" title="name" alt="" ></a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at accumsan justo. Vivamus eget volpat lacus nec tristique leoestibulum.</p>
+			</div>
+			<div class="col-md-4 possible-about">
+					<h4>OUR CAPABILITIES</h4>
+						<div class="tab1">
+							<ul class="place">
+								<li><img src="images/cir.png" alt=""></li>
+								<li>Placerat ligula tincidunt</li>
+							</ul>
+						<p >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						<div class="tab2">
+							<ul class="place">
+								<li><img src="images/cir.png" alt=""></li>
+								<li>Sed ut perspiciatis unde</li>
+							</ul>
+						<p >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						<div class="tab3">
+							<ul class="place">
+								<li><img src="images/cir.png" alt=""></li>
+								<li>Eaque ipsa quae ab illo </li>
+							</ul>
+						<p >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						
+						<div class="tab4">
+							<ul class="place">
+								<li><img src="images/cir.png" alt=""></li>
+								<li>Eaque ipsa quae ab illo </li>
+							</ul>
+						<p >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						
+						
+						<script>
+							$(document).ready(function(){
+								$(".tab1 p").hide();
+								$(".tab2 p").hide();
+								$(".tab3 p").hide();
+								$(".tab4 p").hide();
+								$(".tab1 ul").click(function(){
+									$(".tab1 p").slideToggle(300);
+									$(".tab2 p").hide();
+									$(".tab3 p").hide();
+									$(".tab4 p").hide();
+								})
+								$(".tab2 ul").click(function(){
+									$(".tab2 p").slideToggle(300);
+									$(".tab1 p").hide();
+									$(".tab3 p").hide();
+									$(".tab4 p").hide();
+								})
+								$(".tab3 ul").click(function(){
+									$(".tab3 p").slideToggle(300);
+									$(".tab4 p").hide();
+									$(".tab2 p").hide();
+									$(".tab1 p").hide();
+								})
+								$(".tab4 ul").click(function(){
+									$(".tab4 p").slideToggle(300);
+									$(".tab3 p").hide();
+									$(".tab2 p").hide();
+									$(".tab1 p").hide();
+								})	
+							});
+						</script>
+						</div>
+					<div class="clearfix"> </div>
+				</div> -->
+			</div>
+		</div>
+
+		<!--/about-->
+		
+		<!-- footer -->
+		<footer>
+		<!-- <div class="w3ls-footer-grids">
+			<div class="container">
+				
+				<div class="clearfix"></div>
+			</div>
+		</div> -->
+		<div class="copy-right-grids">
+			<div class="container">
+				<div class="copy-left">
+					<p class="footer-gd">© 2017 Goliveeventers. All Rights Reserved | Design by <a href="https://goliveeventers.com/" target="_blank">Go Live</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+	<script src="js/bootstrap.js"></script>
+
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+				$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+	</script>
+	<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!----> 
+	<!-- </div> -->
+	<!--footer-starts-->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

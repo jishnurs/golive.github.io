@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home :: goLive Eventers</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/gallery.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/chocolat.css" 		type="text/css" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->		
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
+	<!-- <script src="js/jquery.min.js"> </script> -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+ <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="header-nav">
+			<div class="container">
+				
+				<div class="navigation">
+					<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+						<div class="container"> 
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span> <span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<!-- <a class="navbar-brand page-scroll" href="#page-top">Go Live</a> -->
+								<div class="navbar-brand page-scroll">
+									<a href="index.html"><img src="images/logo/logo.png" /></a>
+								</div>
+							</div>
+							
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="index.html" class="page-scroll">Home</a></li>
+									<li><a href="about.html" class="page-scroll">About</a></li>
+									<li><a href="services.html" class="page-scroll">Services</a></li>
+									<li><a href="gallery.html" class="page-scroll">Gallery</a></li>
+									<li><a href="contact.html" class="page-scroll">Contact</a></li>
+								</ul>
+							</div>
+							<!-- /.navbar-collapse --> 
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+			  <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-nav ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+		 <div class="banner-left">
+						<!-- banner-text Slider starts Here -->
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+								$(function () {
+								// Slideshow 4
+									$("#slider3").responsiveSlides({
+									auto: true,
+									pager:false,
+									nav:true,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+									}
+								});	
+							});
+						</script>
+						<!--//End-slider-script -->
+						<div class="banner-title"> 
+							<div  id="top" class="callbacks_container">
+								<ul class="rslides" id="slider3">
+									<li>
+										<div class="banner-slide banner5">
+										</div>
+									</li>
+								</ul>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>	
+<!--/header-->
+
+<!--moments-starts--> 
+<div class="moments">
+	<div class="container">
+		<h3>Gallery</h3>
+		
+	</div>
+</div>	
+<!--moments-->
+		<!-- start responsive tabs -->
+
+ 		<!-- <div class="sap_tabs">	
+ 			<div id="horizontalTab">
+ 				<ul class="resp-tabs-list">
+ 					<li><span>Wedding</span></li>
+ 					<li><span>Star Night</span></li>
+ 					<li><span>College Events</span></li>
+ 					<li><span>Birthday</span></li>			  
+ 					<div class="clear"></div>
+ 				</ul>				  	 
+ 				<div class="resp-tabs-container">
+ 					<div class="tab-1">
+ 						<div class="facts">
+
+ 						</div>
+ 					</div>	
+ 					<div class="tab-2">
+ 						<div class="facts">
+
+ 							<div class="clear"></div>
+ 						</div>
+ 					</div>				        					 
+ 					<div class="tab-3">
+ 						<div class="facts">
+
+ 						</div>	           	      
+ 					</div>	
+ 					<div class="tab-4">
+ 						<div class="facts">
+
+ 						</div> 			              				             
+ 					</div>	
+ 				</div>
+ 			</div>
+		    <script type="text/javascript">
+			    $(document).ready(function () {
+			        $('#horizontalTab').easyResponsiveTabs({
+			            type: 'default', //Types: default, vertical, accordion           
+			            width: 'auto', //auto or any width like 600px
+			            fit: true   // 100% fit in a container
+			        });
+			    });
+			   </script>	
+      		  </div>	
+ -->
+
+		<!-- end  responsive tabs -->
+
+		<!-- Portfolio -->
+		<div class="portfolio w3layouts agileits" id="portfolio">
+			<div class="container">
+
+
+				<ul class="simplefilter w3layouts agileits">
+					<li class="active w3layouts agileits" data-filter="all">All</li>
+					<li class="w3layouts agileits" data-filter="1">Wedding</li>
+					<li class="w3layouts agileits" data-filter="2">College Events</li>
+					<li class="w3layouts agileits" data-filter="3">Birthday Party</li>
+					<li class="w3layouts agileits" data-filter="4">Star Night</li>
+					<li class="w3layouts agileits" data-filter="5">Public Events</li>
+					<li class="w3layouts agileits" data-filter="6">Product Launch</li>
+					<!-- <li class="w3layouts agileits" data-filter="7">Exhibitions</li> -->
+				</ul>
+
+				<div class="filtr-container w3layouts agileits">
+
+					<div class="filtr-item w3layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
+						<a href="images/wedding.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="images/gallery/wedding.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Wedding</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+
+					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
+						<a href="images/gallery/birthday1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							
+							<figure>
+								<img src="images/gallery/birthday1.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Birthday</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="filtr-item w3layouts agileits" data-category="1" data-sort="Luminous night">
+						<a href="images/gallery/banner1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="images/gallery/banner1.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Wedding</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+
+
+					<div class="filtr-item w3layouts agileits" data-category="2" data-sort="City wonders">
+						<a href="images/gallery/college-event.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="images/gallery/college-event.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>College events</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+
+					<div class="filtr-item w3layouts agileits" data-category="4" data-sort="In production">
+						<a href="images/gallery/Star-Night.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="images/gallery/Star-Night.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Star Night</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+
+					<div class="filtr-item w3layouts agileits" data-category="3, 4" data-sort="Industrial site">
+						<a href="images/gallery/banner.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="images/gallery/banner.jpg" class="img-responsive w3layouts agileits" alt="Golive">
+								<figcaption>
+									<h3>Wedding</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+
+					<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+						<a href="images/gallery/.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="images/gallery/.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>HARVESTER</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+
+					<div class="filtr-item w3layouts agileits" data-category="5" data-sort="City lights">
+						<a href="images/gallery/.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="images/gallery/.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>HARVESTER</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+
+					<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+						<a href="images/gallery/.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="images/gallery/.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>HARVESTER</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+
+					<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+						<a href="images/gallery/.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="images/gallery/.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>HARVESTER</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="clearfix"></div>
+
+				</div>
+
+			</div>
+		</div>
+		<!-- //Portfolio -->
+<!--footer-starts-->
+	<footer>
+				<div class="copy-right-grids">
+					<div class="container">
+						<div class="copy-left">
+							<p class="footer-gd">© 2017 Goliveeventers. All Rights Reserved | Design by <a href="https://goliveeventers.com/" target="_blank">Go Live</a></p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</footer>
+			<!-- //footer -->
+
+			
+			<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			<!----> 
+			<!-- </div> -->
+			<!--footer-starts-->
+
+			<!-- Tabs-JavaScript -->
+				<script src="js/jquery.filterizr.js"></script>
+				<script src="js/controls.js"></script>
+				<script type="text/javascript">
+					$(function() {
+						$('.filtr-container').filterizr();
+					});
+				</script>
+			<!-- //Tabs-JavaScript -->
+
+			<!-- PopUp-Box-JavaScript -->
+				<script src="js/jquery.chocolat.js"></script>
+				<script type="text/javascript">
+					$(function() {
+						$('.filtr-item a').Chocolat();
+					});
+				</script>
+			<!-- //PopUp-Box-JavaScript -->
+
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+					});
+				});
+			</script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+						/*
+						var defaults = {
+						containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+						};
+						*/
+						$().UItoTop({ easingType: 'easeOutQuart' });
+					});
+			</script>
+			<script type="text/javascript" src="js/main.js"></script>
+
+			<script src="js/bootstrap.js"></script>
+		</body>
+		</html>
