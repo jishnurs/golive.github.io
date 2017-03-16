@@ -2,7 +2,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 	margin:0;
 	padding:0;
-	background:url(../images/bg.png);
+	/*background:url(../images/bg.png);*/
  }
 body a{
 	transition:0.5s all;
@@ -3795,7 +3795,8 @@ div#portfoliolist {
 /*-- //grids--*/
 @media(max-width:1366px){
   .popular-w3 {
-    padding: 3.5em 0;
+    /*padding: 3.5em 0;*/
+    padding: 1em 0;
   }
   ul.nav.navbar-nav {
       margin-top: 0em;
@@ -3966,24 +3967,30 @@ div#portfoliolist {
 
 .detail-bottom ul { 
   padding-left:20px; 
+  padding-right:20px; 
   list-style:none; 
 }
 .detail-bottom li {
   text-align: left;
   color: #423F3F;
-  margin-bottom:10px; 
-  text-indent: 2px;
+  /*margin-bottom:10px; */
+  padding-top:7px;
+  padding-bottom:10px;
+border-bottom: 1px solid #333;
+  /*text-indent: 2px;*/
 }
-.detail-bottom li:before {    
-    font-family: 'FontAwesome';
+.detail-bottom li:before {   
+    /*font-family: 'FontAwesome';*/
     /*content: '\f067';*/
-    content: '\f046';
-    margin: 0 5px 0 -15px;
-    padding-right: 4px;
+    /*content: '\f046';*/
+    /*margin: 0 5px 0 -15px;*/
+    /*padding-right: 4px;*/
   }
 .detail-bottom li:hover { 
+/*background: #dedede;*/
   color: #f9ab1e;
   cursor: pointer;
+  padding-left: 12px;
 }
 .w3-button{
     margin: 2em 0 1em 0;
