@@ -455,7 +455,7 @@ ul.callbacks_tabs li{
   text-align: center;
   font-size: 3em;
   margin-bottom: .6em;
-  color:#663300;
+  color:#339966;
 }
 .index-about p {
   text-align: center;
@@ -535,7 +535,7 @@ ul.demo-1.effect li {
   text-align: center;
   font-size: 3em;
   /*margin-bottom: 1em;*/
-  color:#663300;
+  color:#339966;
 }
 .latest-designs {
   /*padding: 3em 0;*/
@@ -663,7 +663,7 @@ ul#filters {
 }
 /*--team--*/
 .team-top.heading h3 {
-  color: #663300;
+  color: #339966;
 }
 .col_1_of_4:first-child {
 	margin-left: 0;
@@ -765,12 +765,12 @@ div#portfoliolist {
   text-align: center;
   font-size: 3em;
   margin-bottom: .6em;
-  color: #663300;
+  color: #339966;
 }
 .portfolio-wrapper h4 {
   font-size: 4em;
   margin: 0em 0;
-  color: #663300;
+  color: #339966;
   font-weight: 600;
 }
 .portfolio-wrapper h4 span {
@@ -781,7 +781,7 @@ div#portfoliolist {
 .portfolio-wrapper label {
   width: 25%;
   height: 2px;
-  background: #663300;
+  background: #339966;
 }
 .portfolio-wrapper p {
   line-height: 1.8em;
@@ -812,7 +812,7 @@ div#portfoliolist {
 //   padding: 4em 0px;
 // }
 // .footet-left h3 {
-// 	/*font-family: 'Metamorphous', cursive;*/
+/*// 	font-family: 'Metamorphous', cursive;*/
 //   color: #fff;
 //   font-size: 1.2em;
 //   font-weight: 600;
@@ -1101,7 +1101,7 @@ i.fa-envelope-o {
 }
 .about-grid h6 a {
   text-decoration: none;
-  color: #663300;
+  color: #339966;
 }
 .about-grid p {
   padding: 0.5em 0 0;
@@ -1114,7 +1114,7 @@ i.fa-envelope-o {
 }
 .bottom-grid h3 {
 		/*font-family: 'Metamorphous', cursive;*/
-  color: #663300;
+  color: #339966;
   font-size: 2em;
   padding: 0 0.5em 1em;
 }
@@ -1127,7 +1127,7 @@ i.fa-envelope-o {
 .possible-about h4 {
 		/*font-family: 'Metamorphous', cursive;*/
   font-size: 1.4em;
-  color: #663300;
+  color: #339966;
   padding: 0 0 1em;
 }
 ul.place {
@@ -1556,7 +1556,7 @@ span.glyphicon {
   margin-top: 3%;
 }
 .blog-main p a{
-	color:#663300;
+	color:#339966;
 }
 .blog-main p a:hover{
 	text-decoration:underline;
@@ -1568,7 +1568,7 @@ span.glyphicon {
 	color:#339966;
 }
 a.bg {
-	color: #663300;
+	color: #339966;
 	font-size: 1.5em;
 	font-weight: 400;
 	text-decoration: none;
@@ -1610,7 +1610,7 @@ a.bg {
 	background: #339966;
 }
 .b-btn a:hover{
-	background:#663300;
+	background:#339966;
 	color:#fff;
 	text-decoration:none;
 	transition: 0.5s all ease;
@@ -1623,7 +1623,7 @@ a.bg {
 	border-bottom: 1px solid rgba(153, 153, 153, 0.2);
 }
 .blog-right h3,.blog-right h2{
-	color: #663300;
+	color: #339966;
 	font-size: 1.5em;
 	font-weight: 400;
 }
@@ -1678,7 +1678,7 @@ p.sngl {
   margin-bottom: 1.1em;
 }
 .blog-comments ul li a, .blog-comments ul li p {
-	color: #663300;
+	color: #339966;
 	font-size: 15px;
 	font-weight: 600;
 	display: inline-block;
@@ -1734,7 +1734,7 @@ p.sngl {
   resize: none;
 }
 .contact-form form input[type="submit"]:hover{
-	background: #663300;
+	background: #339966;
 	transition: 0.5s all ease;
 	-webkit-transition: 0.5s all ease;
 	-moz-transition: 0.5s all ease;
@@ -2012,7 +2012,8 @@ div#portfoliolist {
 /*--contact--*/
  /**contact**/
 .contact-map iframe {
-	min-height:380px;
+  /*min-height:380px;*/
+	min-height:256px;
 	width: 100%;
 	border: none;
 }
@@ -2109,7 +2110,7 @@ div#portfoliolist {
 .form_details input[type="submit"]:hover {
  	text-decoration: none;
 	color: #fff;
-	  background: #663300;
+	  background: #339966;
 }
 .contact {
   padding: 4em 0em;
@@ -2121,7 +2122,7 @@ div#portfoliolist {
 }
 .contact_left h4 {
   font-size: 1.7em;
-  color: #663300;
+  color: #339966;
   font-weight: 600;
   margin: 0 0 0.5em;
   font-weight: 600;
@@ -2146,7 +2147,7 @@ div#portfoliolist {
 }
 .company_ad h3 {
   font-size: 1.7em;
- color: #663300;
+ color: #339966;
   font-weight: 600;
   margin: 0 0 0.5em;
   text-align: left;
@@ -3970,7 +3971,7 @@ div#portfoliolist {
 }
 .detail-bottom li {
   text-align: left;
-  color: #423F3F;
+  color: #6C6C6C;
   margin-bottom:10px; 
   text-indent: 2px;
 }
@@ -3982,25 +3983,25 @@ div#portfoliolist {
     padding-right: 4px;
   }
 .detail-bottom li:hover { 
-  color: #f9ab1e;
+  color: #339966;
   cursor: pointer;
 }
 .w3-button{
     margin: 2em 0 1em 0;
 }
 .w3-button a{
-  color: #FFFFFF;
     font-size: 1em;
     text-decoration: none;
     padding: .5em 2em;
-    background: #F44336;
     text-align: center;
-    border: solid 2px #F44336;
+    background:none;
+    color: #339966;
+    border: solid 2px #339966;
 }
 .w3-button a:hover{
-  background:none;
-  color: #F44336;
-  border: solid 2px #F44336;
+    color: #FFFFFF;
+    background: #339966;
+    border: solid 2px #339966;
 }
 @media(max-width:320px){
   .w3-button a {
