@@ -29,7 +29,7 @@
 						<div class="popular-grids">
 							<div class="col-md-4 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/11.jpg" class="img-responsive" alt=""/>
-								<div class="popular-text">
+								<div class="popular-text" style="height: 473px;">
 									<!-- <i class="fa fa-home" aria-hidden="true"></i> -->
 									<h5>Wedding Planning</h5>
 									<div class="detail-bottom">
@@ -57,7 +57,7 @@
 							</div>
 							<div class="col-md-4 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/13.jpg" class="img-responsive" alt=""/>
-								<div class="popular-text">
+								<div class="popular-text" style="height: 473px;">
 									<!-- <i class="fa fa-envira" aria-hidden="true"></i> -->
 									<h5>College Events</h5>
 									<div class="detail-bottom">
@@ -80,7 +80,7 @@
 							</div>
 							<div class="col-md-4 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/15.jpg" class="img-responsive" alt=""/>
-								<div class="popular-text">
+								<div class="popular-text" style="height: 473px;">
 									<!-- <i class="fa fa-building" aria-hidden="true"></i> -->
 									<h5>Birthday Party</h5>
 									<div class="detail-bottom">
