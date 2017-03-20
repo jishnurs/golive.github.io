@@ -1052,8 +1052,12 @@ i.fa-envelope-o {
   float:left;
 }
 .copy-right-grids {
-  padding: 20px 0px;
+  padding: 5px 0px;
     background: #211E1E;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 .copy-left{
   text-align:center;

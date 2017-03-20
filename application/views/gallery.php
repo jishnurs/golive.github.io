@@ -84,7 +84,7 @@
 
 
 				<ul class="simplefilter w3layouts agileits">
-					<!-- <li class="active w3layouts agileits" data-filter="all">All</li> -->
+					<li class="w3layouts agileits" data-filter="all">All</li>
 					<li class="active w3layouts agileits" data-filter="1">Wedding</li>
 					<li class="w3layouts agileits" data-filter="2">College Events</li>
 					<li class="w3layouts agileits" data-filter="3">Birthday Party</li>
@@ -106,7 +106,36 @@
 							</figure>
 						</a>
 					</div>
-
+					<div class="filtr-item w3layouts agileits" data-category="1" data-sort="Luminous night">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/3a-indian.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/3a-indian.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Wedding</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="filtr-item w3layouts agileits" data-category="1" data-sort="Industrial site">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/Photography-12.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/Photography-12.jpg" class="img-responsive w3layouts agileits" alt="Golive">
+								<figcaption>
+									<h3>Wedding</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="filtr-item w3layouts agileits" data-category="1" data-sort="Dreamhouse">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/Photography-37.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/Photography-37.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Wedding</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
 					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
 						<a href="<?php echo base_url(); ?>assets/images/gallery/birthday/2nd-birthday.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
 							
@@ -118,51 +147,6 @@
 							</figure>
 						</a>
 					</div>
-					<div class="filtr-item w3layouts agileits" data-category="1" data-sort="Luminous night">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/3a-indian.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/3a-indian.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
-								<figcaption>
-									<h3>Wedding</h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-
-
-					<div class="filtr-item w3layouts agileits" data-category="2" data-sort="City wonders">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/collegeevents/shutterstock_199419065.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/collegeevents/shutterstock_199419065.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
-								<figcaption>
-									<h3>College events</h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-
-					<div class="filtr-item w3layouts agileits" data-category="4" data-sort="In production">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/starnight/gettyimages.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/starnight/gettyimages.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
-								<figcaption>
-									<h3>Star Night</h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-				
-					<div class="filtr-item w3layouts agileits" data-category="1" data-sort="Industrial site">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/Photography-12.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/Photography-12.jpg" class="img-responsive w3layouts agileits" alt="Golive">
-								<figcaption>
-									<h3>Wedding</h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					
 					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
 						<a href="<?php echo base_url(); ?>assets/images/gallery/birthday/Photography-43.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
 							
@@ -174,7 +158,49 @@
 							</figure>
 						</a>
 					</div>
-
+					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/birthday/birthday-party-teenage.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/birthday/birthday-party-teenage.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Birthday</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/birthday/stella-taco.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/birthday/stella-taco.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Birthday</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/birthday/41e09.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/birthday/41e09.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Birthday</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="filtr-item w3layouts agileits" data-category="2" data-sort="City wonders">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/collegeevents/shutterstock_199419065.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/collegeevents/shutterstock_199419065.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>College events</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
 					<div class="filtr-item w3layouts agileits" data-category="2" data-sort="Peaceful lake">
 						<a href="<?php echo base_url(); ?>assets/images/gallery/collegeevents/photographer-058.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
 							<figure>
@@ -185,7 +211,39 @@
 							</figure>
 						</a>
 					</div>
-
+					<div class="filtr-item w3layouts agileits" data-category="2" data-sort="Luminous night">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/collegeevents/imagine_mid.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/collegeevents/imagine_mid.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>College events</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					
+					<div class="filtr-item w3layouts agileits" data-category="4" data-sort="Luminous night">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/starnight/IMG_0898.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/starnight/IMG_0898.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Star night</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<div class="filtr-item w3layouts agileits" data-category="4" data-sort="In production">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/starnight/gettyimages.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+							<figure>
+								<img src="<?php echo base_url(); ?>assets/images/gallery/starnight/gettyimages.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<figcaption>
+									<h3>Star Night</h3>
+								</figcaption>
+							</figure>
+						</a>
+					</div>
 					<div class="filtr-item w3layouts agileits" data-category="4" data-sort="City lights">
 						<a href="<?php echo base_url(); ?>assets/images/gallery/starnight/W9BVsaw.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
 							<figure>
@@ -208,75 +266,46 @@
 						</a>
 					</div>
 
-					<div class="filtr-item w3layouts agileits" data-category="1" data-sort="Dreamhouse">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/Photography-37.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+					<div class="filtr-item w3layouts agileits" data-category="6" data-sort="Dreamhouse">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/productlaunch/apple-watch-series-3.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
 							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/Photography-37.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<img src="<?php echo base_url(); ?>assets/images/gallery/productlaunch/apple-watch-series-3.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
 								<figcaption>
-									<h3>Wedding</h3>
+									<h3>Product launch</h3>
 								</figcaption>
 							</figure>
 						</a>
 					</div>
-					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/birthday/birthday-party-teenage.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							
+					<div class="filtr-item w3layouts agileits" data-category="6" data-sort="Dreamhouse">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/productlaunch/B-Infinite-launch.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
 							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/birthday/birthday-party-teenage.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<img src="<?php echo base_url(); ?>assets/images/gallery/productlaunch/B-Infinite-launch.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
 								<figcaption>
-									<h3>Birthday</h3>
+									<h3>Product launch</h3>
 								</figcaption>
 							</figure>
 						</a>
 					</div>
-
-					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/birthday/41e09.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							
+					<div class="filtr-item w3layouts agileits" data-category="6" data-sort="Dreamhouse">
+						<a href="<?php echo base_url(); ?>assets/images/gallery/productlaunch/Mira-Elite.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
 							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/birthday/41e09.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
+								<img src="<?php echo base_url(); ?>assets/images/gallery/productlaunch/Mira-Elite.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
 								<figcaption>
-									<h3>Birthday</h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-
-					<div class="filtr-item w3layouts agileits" data-category="4" data-sort="Luminous night">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/starnight/IMG_0898.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							
-							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/starnight/IMG_0898.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
-								<figcaption>
-									<h3>Star night</h3>
+									<h3>Product launch</h3>
 								</figcaption>
 							</figure>
 						</a>
 					</div>
 
-					<div class="filtr-item w3layouts agileits" data-category="2" data-sort="Luminous night">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/collegeevents/imagine_mid.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							
-							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/collegeevents/imagine_mid.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
-								<figcaption>
-									<h3>College events</h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
+					
+					
 
-					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="Luminous night">
-						<a href="<?php echo base_url(); ?>assets/images/gallery/birthday/stella-taco.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							
-							<figure>
-								<img src="<?php echo base_url(); ?>assets/images/gallery/birthday/stella-taco.jpg" class="img-responsive w3layouts agileits" alt="Golive Photography">
-								<figcaption>
-									<h3>Birthday</h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
+					
+
+
+					
+
+
 					<div class="clearfix"></div>
 
 				</div>
@@ -292,7 +321,7 @@
 			$(function() {
 				$('.filtr-container').filterizr({
 					filter: 1,
-					layout: 'packed'
+					// layout: 'packed'
 				});
 			});
 		</script>
