@@ -3759,7 +3759,7 @@ div#portfoliolist {
     padding: 4em 0;
 }
 .popular-grid {
-    padding: 0 !important;
+    /*padding: 0 !important;*/
     margin-bottom: 40px;
 }
 .popular-text i {
@@ -3971,34 +3971,37 @@ div#portfoliolist {
 
 
 .detail-bottom ul { 
-  padding-left:20px; 
-  padding-right:20px; 
+  padding-left:50px; 
+  padding-right:40px; 
   list-style:none; 
 }
 .detail-bottom li {
   text-align: left;
-
   color: #423F3F;
   /*margin-bottom:10px; */
   padding-top:7px;
   padding-bottom:10px;
-border-bottom: 1px solid #333;
+/*border-bottom: 1px solid #dedede;*/
   /*text-indent: 2px;*/
 }
 .detail-bottom li:before {   
-    /*font-family: 'FontAwesome';*/
-    /*content: '\f067';*/
+    font-family: 'FontAwesome';
+    content: '\f00c';
     /*content: '\f046';*/
-    /*margin: 0 5px 0 -15px;*/
-    /*padding-right: 4px;*/
+    margin: 0 5px 0 -15px;
+    padding-right: 4px;
   }
 .detail-bottom li:hover { 
-  color: #339966;
-/*background: #dedede;*/
+  /*color: #fff;*/
+/*background: #339966;*/
   /*color: #f9ab1e;*/
-  cursor: pointer;
-  padding-left: 12px;
+  /*cursor: pointer;*/
+  /*padding-left: 12px;*/
 }
+ .detail-bottom li:hover:before{
+/*background: #339966;*/
+/*padding: 10px 10px 12px 10px;*/
+ }
 .w3-button{
     margin: 2em 0 1em 0;
 }
