@@ -33,14 +33,14 @@ class Contact extends CI_Controller
             $message = $this->input->post('message');
 
             //set to_email id to which you want to receive mails
-            $to_email = 'jishnu2292@gmail.com';
+            $to_email = 'goliveeventers@gmail.com';
 
             //configure email settings
             $config['protocol'] = 'smtp';
             $config['smtp_host'] = 'ssl://smtp.gmail.com';
             $config['smtp_port'] = '465';
-            $config['smtp_user'] = 'share.facebook0@gmail.com';
-            $config['smtp_pass'] = '!notCommon';
+            $config['smtp_user'] = 'goliveeventers@gmail.com';
+            $config['smtp_pass'] = 'golive007';
             $config['mailtype'] = 'html';
             $config['charset'] = 'iso-8859-1';
             $config['wordwrap'] = TRUE;

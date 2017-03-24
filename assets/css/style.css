@@ -3979,8 +3979,8 @@ div#portfoliolist {
   text-align: left;
   color: #423F3F;
   /*margin-bottom:10px; */
-  padding-top:7px;
-  padding-bottom:10px;
+  padding-top:0px;
+  padding-bottom:9px;
 /*border-bottom: 1px solid #dedede;*/
   /*text-indent: 2px;*/
 }
