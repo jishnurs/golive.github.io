@@ -31,7 +31,7 @@ Go-live events!... </p>
 				</div>
 				<div class="col-md-5 abut-img">
 				<a href="single.html" >
-					<img src="images/ab1.jpg" alt="" class="img-responsive ">
+					<img src="<?php echo base_url(); ?>assets/images/ab1.jpg" alt="" class="img-responsive ">
 				</a>								
 				</div>
 				<div class="clearfix"> </div>
