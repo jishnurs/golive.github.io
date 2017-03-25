@@ -1,28 +1,11 @@
 <?php $this->load->view('common/header'); ?>
-
+<style type="text/css">
+	.contact_left p {
+	    margin-bottom: 0px;
+	}
+</style>
 		 <div class="banner-left">
-						<!-- banner-text Slider starts Here -->
-						<script src="js/responsiveslides.min.js"></script>
-						<script>
-							// You can also use "$(window).load(function() {"
-								$(function () {
-								// Slideshow 4
-									$("#slider3").responsiveSlides({
-									auto: true,
-									pager:false,
-									nav:true,
-									speed: 500,
-									namespace: "callbacks",
-									before: function () {
-									$('.events').append("<li>before event fired.</li>");
-									},
-									after: function () {
-										$('.events').append("<li>after event fired.</li>");
-									}
-								});	
-							});
-						</script>
-						<!--//End-slider-script -->
+						
 						<div class="banner-title"> 
 							<div  id="top" class="callbacks_container">
 								<ul class="rslides" id="slider3">
@@ -50,12 +33,13 @@
 			 			<div class="col-md-8 contact_left">
 			 				<h4>Below Type Here</h4>
 			 				<p>For more details please fill the form.</p>
-							  <form>
+			 				<?php echo $this->session->flashdata('msg'); ?>
+							  <form action="<?php echo base_url(); ?>Contact" method="post">
 								 <div class="form_details">
-					                 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-									 <input type="text" class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
-									 <input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
-									 <textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+					                 <input type="text" name="name" class="text" placeholder="Name">
+									 <input type="text" name="email" class="text" placeholder="Email">
+									 <input type="text" name="subject" class="text" placeholder="Subject">
+									 <textarea value="Message" name="message" placeholder="Message"></textarea>
 									 <div class="clearfix"> </div>
 									 <div class="sub-button">
 									 	<input type="submit" value="Send message">

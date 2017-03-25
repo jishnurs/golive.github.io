@@ -57,4 +57,6 @@ $route['services'] = 'home/services';
 $route['gallery'] = 'home/gallery';
 $route['contact'] = 'home/contact';
 
+// $route['admin'] = 'admin/home';
+
 $route['translate_uri_dashes'] = FALSE;

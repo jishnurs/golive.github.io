@@ -1,28 +1,21 @@
 <?php $this->load->view('common/header'); ?>
-
+<style type="text/css">
+	.services_li ul li a, .services_li ul li{
+		color: #423F3F;
+	}
+	.services_li ul li a:hover, .services_li ul li:hover{
+		color: #26B256;
+		cursor: pointer;
+	}
+	.services_li ul li a:hover{
+		text-decoration: none;
+		color: #26B256;
+	}
+</style>
 	
 	<div class="banner-left">
 		<!-- banner-text Slider starts Here -->
-		<script src="js/responsiveslides.min.js"></script>
-		<script>
-							// You can also use "$(window).load(function() {"
-
-			$(function () {
-				$("#slider3").responsiveSlides({
-					auto: true,
-					pager:false,
-					nav:true,
-					speed: 500,
-					namespace: "callbacks",
-					before: function () {
-						$('.events').append("<li>before event fired.</li>");
-					},
-					after: function () {
-						$('.events').append("<li>after event fired.</li>");
-					}
-				});	
-			});
-		</script>
+		
 		<!--//End-slider-script -->
 		<div class="banner-title"> 
 			<div  id="top" class="callbacks_container">
@@ -46,25 +39,25 @@
 					<!--grids --> 
 					<div class="popular-w3">
 						<div class="popular-grids">
-							<div class="col-md-4 popular-grid">
+							<div class="col-md-3 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/11.jpg" class="img-responsive" alt=""/>
-								<div class="popular-text">
+								<div class="popular-text" style="height: 410px;">
 									<!-- <i class="fa fa-home" aria-hidden="true"></i> -->
 									<h5>Wedding Planning</h5>
-									<div class="detail-bottom">
+									<div class="detail-bottom services_li">
 										<ul>
-											<li>Matrimony Services</li>
-											<li>Invitation card</li>
-											<li>Cinegraphy & photography</li>
-											<li>Venue booking</li>
-											<li>Floral decoration</li>
-											<li>Nadhaswaram & Religious Orchestra</li>
-											<li>Food & beverages</li>
-											<li>Beautification & costume designing</li>
-											<li>Luxuary cars</li>
+											<li><a href="<?php echo base_url(); ?>contact"><i class="fa fa-handshake-o" aria-hidden="true"></i> Matrimony Services</a></li>
+											<li><i class="fa fa-address-card-o" aria-hidden="true"></i> &nbsp;&nbsp;Invitation card</li>
+											<li><i class="fa fa-camera-retro" aria-hidden="true"></i> &nbsp;&nbsp;Cinegraphy &amp; photography</li>
+											<li><i class="fa fa-building-o" aria-hidden="true"></i> &nbsp;&nbsp;Venue booking</li>
+											<li>&nbsp;&nbsp;Floral decoration</li>
+											<li><i class="fa fa-music" aria-hidden="true"></i> &nbsp;&nbsp;Nadhaswaram & Religious Orchestra</li>
+											<li><i class="fa fa-beer" aria-hidden="true"></i> &nbsp;&nbsp;Food & beverages</li>
+											<li><i class="fa fa-user-circle-o" aria-hidden="true"></i> &nbsp;&nbsp;Beautification & costume designing</li>
+											<li><i class="fa fa-car" aria-hidden="true"></i> &nbsp;&nbsp;Luxuary cars</li>
 											<!-- <li>Grand entry</li> -->
-											<!-- <li>Wedding cakes</li> -->
-											<!-- <li>Bachelor parties / hen parties</li> -->
+											<!-- <li><i class="fa fa-birthday-cake" aria-hidden="true"></i> Wedding cakes</li> -->
+											<!-- <li><i class="fa fa-glass" aria-hidden="true"></i> Bachelor parties / hen parties</li> -->
 											<!-- <li>Honeymoon packages</li> -->
 											<!-- <li>Light music & DJs</li> -->
 										</ul>
@@ -74,22 +67,22 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4 popular-grid">
+							<div class="col-md-3 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/13.jpg" class="img-responsive" alt=""/>
-								<div class="popular-text">
+								<div class="popular-text" style="height: 410px;">
 									<!-- <i class="fa fa-envira" aria-hidden="true"></i> -->
 									<h5>College Events</h5>
 									<div class="detail-bottom">
 										<ul>
-											<li>Stage & art decoration</li>
-											<li>Pro-show</li>
-											<li>Celebrity management</li>
-											<li>Photography & videography</li>
-											<li>Website</li>
-											<li>Teaser video & posters</li>
-											<li>Sponsorships</li>
-											<li>Media patners</li>
-											<li>Charity fund</li>
+											<li class="_ico ico">Stage & art decoration</li>
+											<li class="_ico ico">Pro-show</li>
+											<li class="_ico ico">Celebrity management</li>
+											<li><i class="fa fa-picture-o" aria-hidden="true"></i> Photography & videography</li>
+											<li class="_ico ico">Website</li>
+											<li class="_ico ico">Teaser video & posters</li>
+											<li class="_ico ico">Sponsorships</li>
+											<li class="_ico ico">Media patners</li>
+											<li class="_ico ico">Charity fund</li>
 										</ul>
 									</div>
 									<div class="w3-button">
@@ -97,20 +90,20 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4 popular-grid">
+							<div class="col-md-3 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/15.jpg" class="img-responsive" alt=""/>
-								<div class="popular-text">
+								<div class="popular-text" style="height: 410px;">
 									<!-- <i class="fa fa-building" aria-hidden="true"></i> -->
 									<h5>Birthday Party</h5>
 									<div class="detail-bottom">
 										<ul>
-											<li>Birthday cakes
+											<li><i class="fa fa-birthday-cake" aria-hidden="true"></i> Birthday cakes
 											<li>Decoration</li>
-											<li>Food & beverages</li>
-											<li>Photography</li>
+											<li><i class="fa fa-beer" aria-hidden="true"></i> Food & beverages</li>
+											<li><i class="fa fa-picture-o" aria-hidden="true"></i> Photography</li>
 											<li>Venue booking</li>
-											<li>Gift</li>
-											<li>Costume designing</li>
+											<li><i class="fa fa-gift" aria-hidden="true"></i> Gift</li>
+											<li><i class="fa fa-user-circle-o" aria-hidden="true"></i> Costume designing</li>
 											<br>
 											<br>
 											<br>
@@ -121,7 +114,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4 popular-grid">
+							<div class="col-md-3 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/18.jpg" class="img-responsive" alt=""/>
 								<div class="popular-text">
 									<!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
@@ -144,7 +137,7 @@
 							</div>
 							
 							<!-- <div class="clearfix"></div> -->
-							<div class="col-md-4 popular-grid">
+							<div class="col-md-3 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/14.jpeg" class="img-responsive" alt=""/>
 								<div class="popular-text">
 									<!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
@@ -163,7 +156,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4 popular-grid">
+							<div class="col-md-3 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/17.jpg" class="img-responsive" alt=""/>
 								<div class="popular-text">
 									<!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
@@ -181,7 +174,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4 popular-grid">
+							<div class="col-md-3 popular-grid">
 								<img src="<?php echo base_url(); ?>assets/images/services/12.jpg" class="img-responsive" alt=""/>
 								<div class="popular-text">
 									<!-- <i class="fa fa-cog" aria-hidden="true"></i> -->

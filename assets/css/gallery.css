@@ -47,9 +47,14 @@
 }
 
 .simplefilter li.active {
-	border: 2px solid #000;
-	color: #E91E63;
+	border: 2px solid #339966;
+	color: #339966;
 	font-weight: 700;
+}
+.simplefilter li:hover {
+	border: 2px solid #339966;
+	background-color: #339966;
+	color: #ffffff;
 }
 
 select {

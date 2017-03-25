@@ -116,7 +116,7 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 								</div>
 								<div class="pic-caption top-to-bottom">
 									<h5 class="pic-title">Wedding Planning</h5>
-									<p>repreh qui in voluptate ea.</p>
+									<!-- <p>repreh qui in voluptate ea.</p> -->
 								</div>
 							</div>
 							<h4>Wedding Planning</h4>
@@ -130,7 +130,7 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 								</div>
 								<div class="pic-caption top-to-bottom">
 									<h5 class="pic-title">Birthday Party</h5>
-									<p>repreh qui in voluptate ea.</p>
+									<!-- <p>repreh qui in voluptate ea.</p> -->
 								</div>
 							</div>
 							<h4>Birthday Party</h4>
@@ -144,7 +144,7 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 								</div>
 								<div class="pic-caption top-to-bottom">
 									<h5 class="pic-title">College Events</h5>
-									<p>repreh qui in voluptate ea.</p>
+									<!-- <p>repreh qui in voluptate ea.</p> -->
 								</div>
 							</div>
 							<h4>College Events</h4>
@@ -158,7 +158,7 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 								</div>
 								<div class="pic-caption top-to-bottom">
 									<h5 class="pic-title">Public Events</h5>
-									<p>repreh qui in voluptate ea.</p>
+									<!-- <p>repreh qui in voluptate ea.</p> -->
 								</div>
 							</div>
 							<h4>Public Events</h4>
@@ -173,7 +173,7 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 								</div>
 								<div class="pic-caption top-to-bottom">
 									<h5 class="pic-title">Exhibitions</h5>
-									<p>repreh qui in voluptate ea.</p>
+									<!-- <p>repreh qui in voluptate ea.</p> -->
 								</div>
 							</div>
 							<h4>Exhibitions</h4>
@@ -187,7 +187,7 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 								</div>
 								<div class="pic-caption top-to-bottom">
 									<h5 class="pic-title">Product Launch</h5>
-									<p>repreh qui in voluptate ea.</p>
+									<!-- <p>repreh qui in voluptate ea.</p> -->
 								</div>
 							</div>
 							<h4>Product Launch</h4>
@@ -201,7 +201,7 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 								</div>
 								<div class="pic-caption top-to-bottom">
 									<h5 class="pic-title">Star Night</h5>
-									<p>repreh qui in voluptate ea.</p>
+									<!-- <p>repreh qui in voluptate ea.</p> -->
 								</div>
 							</div>
 							<h4>Star Night</h4>
@@ -212,6 +212,8 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 					</div>
 				</div>
 			</div>
+						<br>
+						<br>
 		<!-- //team -->
 
 <!-- 
@@ -311,7 +313,16 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 	<footer>
 		<div class="w3ls-footer-grids">
 			<div class="container">
-				<div class="col-md-3 w3l-footer one">
+				<div class="col-md-6 w3l-footer one">
+					<h3>Reach us</h3>
+					<p>
+						<div class="contact-map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d986.5274267246618!2d76.93758097682506!3d8.488713181192301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb9918f80475%3A0x952f530841ab40a3!2sPassport+Office%2C+Trivandrum!5e0!3m2!1sen!2sin!4v1488947267165" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424396.3176723366!2d150.92243255000002!3d-33.7969235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney+NSW%2C+Australia!5e0!3m2!1sen!2sin!4v1431587453420" width="100%" height="151px" frameborder="0" style="border:0"></iframe> -->
+						</div>
+					</p>
+				</div>
+				<!-- <div class="col-md-3 w3l-footer one">
 					<h3>About Company</h3>
 					<p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of Latin at Hampden-Sydney College in Virginia from a Lorem Ipsum passage, undoubtable source.</p>
 					<p class="adam">- Mark Thomson, CEO</p>
@@ -331,7 +342,7 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 							<span>About a day ago<span>
 						</span></span></li>
 					</ul>
-				</div>
+				</div> -->
 				<div class="col-md-3 w3l-footer two">
 					<h3>Keep Connected</h3>
 					<ul>
@@ -358,3 +369,16 @@ GO-LIVE EVENTS!... But We Understand That Every Event Would Remain As Special Th
 		
 	<!-- //footer -->
 		<?php $this->load->view('common/footer'); ?>
+		<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/588ed17057968e2dc9680308/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
