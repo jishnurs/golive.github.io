@@ -2191,7 +2191,7 @@ div#portfoliolist {
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	bottom: 14px;
+	bottom: 30px;
 	right: 3%;
 	overflow: hidden;
 	width: 40px;
@@ -3759,45 +3759,7 @@ div#portfoliolist {
 .popular-w3, .about-w3layouts, .blog-agile, .gallery, .contact, .footer{
     padding: 4em 0;
 }
-.popular-grid {
-    /*padding: 0 !important;*/
-    margin-bottom: 40px;
-}
-.popular-text i {
-    /*font-size: 3.5em;
-    margin-top: 0.8em;
-    color:#2baf2b;*/
-}
-.popular-text {
-    text-align: center;
-    /*border-left: 3px double #E8EBEF;*/
-    /*border-right: 3px double #E8EBEF;*/
-    /*border-bottom: 3px double #E8EBEF;*/
-}
-.popular-grid:hover img {
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    -o-transform: scale(0.9);
-    transform: scale(0.9);
-}
-.popular-grid img {
-    -webkit-transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -o-transition: all 2s ease-in-out;
-    transition: all 2s ease-in-out;
-}
-.popular-grid h5 {
-    font-size: 1.8em;
-    color: #222;
-    padding: 0.5em;
-  font-family: 'Play', sans-serif;
-}
-.popular-grid p {
-    font-size: 1em;
-    line-height: 1.8em;
-    padding: 1em 1em 2em;
-  color:#555;
-}
+
 /*-- //grids--*/
 @media(max-width:1366px){
   .popular-w3 {
@@ -3963,49 +3925,8 @@ div#portfoliolist {
 
 }
 
-/*services*/
-/*.detail-bottom ul li{
-}
-.detail-bottom ul{
-  padding-left: 20px;
-}*/
-
-
-.detail-bottom ul { 
-  /*padding-left:30px; */
-  /*padding-right:30px; */
-  list-style:none; 
-}
-.detail-bottom li {
-  text-align: left;
-  color: #423F3F;
-  margin-bottom:10px; 
-  padding-top:0px;
-  padding-bottom:9px;
-  font-size: 13px;
-/*border-bottom: 1px solid #dedede;*/
-  /*text-indent: 2px;*/
-}
-.detail-bottom li:before {   
-    /*font-family: 'FontAwesome';*/
-    /*content: '\f00c';*/
-    /*content: '\f046';*/
-    /*margin: 0 5px 0 -18px;*/
-    /*padding-right: 4px;*/
-  }
-.detail-bottom li:hover { 
-  /*color: #fff;*/
-/*background: #339966;*/
-  /*color: #f9ab1e;*/
-  /*cursor: pointer;*/
-  /*padding-left: 12px;*/
-}
- .detail-bottom li:hover:before{
-/*background: #339966;*/
-/*padding: 10px 10px 12px 10px;*/
- }
 .w3-button{
-    margin: 2em 0 1em 0;
+    margin: 1.1em 0 1em 0;
 }
 .w3-button a{
     font-size: 1em;
@@ -4155,59 +4076,4 @@ h2.resp-accordion {
 .resp-accordion-closed {
   display: none !important;
 }
-}
-
-/*services li*/
-/*li.ico{
-   padding: 4px 0 0 30px;
-}
-li.matrimony_ico{
-  background: url("../images/icons/16/engagement-ring3.png") no-repeat top left;
-}*/
-/*li.matrimony_ico a{
-  color: #E87B5A !important;
-}
-li.invitation_ico{
-  background: url("../images/icons/24/wedding-invitation.png") no-repeat top left;
-  color: #C00F61 !important;
-}
-li.photo_ico{
-  background: url("../images/icons/24/photo-camera.png") no-repeat top left;
-  color: #1C6D92 !important;
-}
-li.place_ico{
-  background: url("../images/icons/24/placeholder.png") no-repeat top left;
-  color: #429A65 !important;
-}
-li.decoration_ico{
-  background: url("../images/icons/24/party.png") no-repeat top left;
-}
-li.music_ico{
-  background: url("../images/icons/24/music.png") no-repeat top left;
-}
-li.drinks_ico{
-  background: url("../images/icons/24/engagement.png") no-repeat top left;
-}
-li.beauti_ico{
-  background: url("../images/icons/24/bride2.png") no-repeat top left;
-}
-li.cars_ico{
-  background: url("../images/icons/24/limousine.png") no-repeat top left;
-}*/
-/*li.matrimony_ico{
-  background: url("../images/icons/24/engagement.png") no-repeat top left;
-}
-li.matrimony_ico{
-  background: url("../images/icons/24/engagement.png") no-repeat top left;
-}
-li.matrimony_ico{
-  background: url("../images/icons/24/engagement-ring3.png") no-repeat top left;
-}
-li.matrimony_ico{
-  background: url("../images/icons/24/engagement-ring3.png") no-repeat top left;
-}
-*/
-
-.img-responsive {
-    width: 100%;
 }

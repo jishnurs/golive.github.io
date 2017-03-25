@@ -39,6 +39,15 @@ class Home extends CI_Controller
 	{
 		$this->load->view('contact');
 	}
+
+	function invitationCard(){
+		$this->load->view('gallery/invitationgallery');
+	}
+	function weddingAlbum(){
+		$this->load->view('gallery/weddingalbum');
+	}
+
+
 }
 
 

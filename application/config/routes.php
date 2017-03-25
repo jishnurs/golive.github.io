@@ -57,6 +57,9 @@ $route['services'] = 'home/services';
 $route['gallery'] = 'home/gallery';
 $route['contact'] = 'home/contact';
 
+$route['invitation-card'] = 'home/invitationCard';
+$route['wedding-album'] = 'home/weddingAlbum';
+
 // $route['admin'] = 'admin/home';
 
 $route['translate_uri_dashes'] = FALSE;

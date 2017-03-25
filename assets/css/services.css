@@ -1,0 +1,257 @@
+
+/*services*/
+/*.detail-bottom ul li{
+}
+.detail-bottom ul{
+  padding-left: 20px;
+}*/
+
+
+.detail-bottom ul { 
+  /*padding-left:30px; */
+  /*padding-right:30px; */
+  list-style:none; 
+}
+.detail-bottom li {
+  /*text-align: left;*/
+  text-align: center;
+  color: #423F3F;
+  /*margin-bottom:10px; */
+  padding-top:0px;
+  padding-bottom:9px;
+  font-size: 14px;
+/*border-bottom: 1px solid #dedede;*/
+  /*text-indent: 2px;*/
+}
+.detail-bottom li:before {   
+    /*font-family: 'FontAwesome';*/
+    /*content: '\f00c';*/
+    /*content: '\f046';*/
+    /*margin: 0 5px 0 -18px;*/
+    /*padding-right: 4px;*/
+  }
+.detail-bottom li:hover { 
+  /*color: #fff;*/
+/*background: #339966;*/
+  /*color: #f9ab1e;*/
+  /*cursor: pointer;*/
+  /*padding-left: 12px;*/
+}
+ .detail-bottom li:hover:before{
+/*background: #339966;*/
+/*padding: 10px 10px 12px 10px;*/
+ }
+
+ /*services li*/
+ .ico{
+    /*padding: 4px 0 0 30px;*/
+    /*padding: 13px 0 0 35px;*/
+    padding: 4px 35px 10px 7px;
+ }
+ .matrimony_ico{
+   background: url("../images/icons/32/engagement-ring3.png") no-repeat top left;
+ }
+ .matrimony_ico a{
+   color: #E87B5A !important;
+ }
+ .invitation_ico{
+   background: url("../images/icons/32/wedding-invitation.png") no-repeat top left;
+   color: #C00F61 !important;
+ }
+ .photo_ico{
+   background: url("../images/icons/32/photo-camera.png") no-repeat top left;
+   color: #1C6D92 !important;
+ }
+ .place_ico{
+   background: url("../images/icons/32/placeholder.png") no-repeat top left;
+   color: #429A65 !important;
+ }
+ .decoration_ico{
+   background: url("../images/icons/32/party.png") no-repeat top left;
+ }
+ .music_ico{
+   background: url("../images/icons/32/music.png") no-repeat top left;
+ }
+ .drinks_ico{
+   background: url("../images/icons/32/engagement.png") no-repeat top left;
+ }
+ .beauti_ico{
+   background: url("../images/icons/32/bride3.png") no-repeat top left;
+ }
+ .cars_ico{
+   background: url("../images/icons/32/limousine.png") no-repeat top left;
+ }
+ .cake_ico{
+   background: url("../images/icons/32/wedding-cake.png") no-repeat top left;
+ }
+ .entry_ico{
+   background: url("../images/icons/32/entry.png") no-repeat top left;
+ }
+ .music_ico{
+   background: url("../images/icons/32/dj2.png") no-repeat top left;
+ }
+ .parties_ico{
+   background: url("../images/icons/32/dancing.png") no-repeat top left;
+ }
+ .homeymoon_ico{
+   background: url("../images/icons/32/suitcase.png") no-repeat top left;
+ }
+ 
+
+ .img-responsive {
+     width: 100%;
+ }
+ .services_list{
+  box-shadow: 10px 10px 5px #888888;
+  background-color: rgba(82, 182, 79, 0.32);
+ }
+ .services_list_2{
+  box-shadow: 10px 10px 5px #888888;
+  background-color: rgba(82, 182, 79, 0.06);
+ }
+ .popular-grid {
+    /*padding: 0 !important;*/
+    margin-bottom: 40px;
+}
+.popular-text i {
+    /*font-size: 3.5em;
+    margin-top: 0.8em;
+    color:#2baf2b;*/
+}
+.popular-text {
+  /*box-shadow: 10px 10px 5px #888888;*/
+    text-align: center;
+    /*border-left: 3px double #E8EBEF;*/
+    /*border-right: 3px double #E8EBEF;*/
+    /*border-bottom: 3px double #E8EBEF;*/
+}
+/*.popular-grid:hover img {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.popular-grid img {
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}*/
+.popular-grid h5 {
+    font-size: 1.8em;
+    color: #870000;
+    padding: 0.5em;
+  font-family: 'Play', sans-serif;
+  background: RGBA(135, 0, 0, 0.28);
+  margin-bottom: 15px;
+}
+.popular-grid p {
+    font-size: 1em;
+    line-height: 1.8em;
+    padding: 1em 1em 2em;
+  color:#555;
+}
+.services_li ul li a, .services_li ul li{
+  color: #423F3F;
+}
+.services_li ul li a:hover, .services_li ul li:hover{
+  color: #26B256;
+  cursor: pointer;
+}
+.services_li ul li a:hover{
+  text-decoration: none;
+  color: #26B256;
+}
+.img-modal{
+  width: 10%;
+float: left;
+padding-right: 10px;
+}
+.service_list_li ul{
+  list-style: none;
+  padding-left: 2em;
+}
+.service_list_li ul li a:hover, .service_list_li ul li a{
+  text-decoration: none;
+  color: inherit;
+
+}
+.service_list_li ul li{
+  padding:5px 2px;
+}
+.modal-dialog {
+    /*width: 400px;*/
+}
+/*-- markets --*/
+.markets{
+  background:#f7f7f7;
+}
+.wthree-heading{
+  text-align:center;
+}
+.markets-grids,.agile-services-grids,.posts-grids,.agile-contact-form {
+    margin: 1em 0 0 0;
+}
+.agileits-icon-grid {
+    padding: 1em;
+    /*background: #FFFFFF;*/
+    box-shadow: 0 0px 1px rgb(107, 107, 107),0 1px 2px rgba(0,0,0,.24);
+    margin-bottom: 15px;
+    background: #dedede;
+}
+.icon-left{
+    float: left;
+    /*width: 70px;*/
+    /*height: 70px;*/
+    text-align: center;
+    /*padding: 1.2em 0 0 0;*/
+    /*margin-right: 1em;*/
+    /*background: #4CAF50;*/
+    width: auto;
+height: auto;
+}
+.icon-left i.fa.fa-bar-chart,.icon-left i.fa.fa-line-chart,.icon-left i.fa.fa-area-chart,.icon-left i.fa.fa-signal,.icon-left i.fa.fa-money,.icon-left i.fa.fa-briefcase{
+    color: #FFFFFF;
+    /*font-size: 2em;*/
+}
+.icon-right{
+    float: left;
+    padding-top: 4px;
+    /*width: 70%;*/
+}
+.icon-right h5{
+  color: #000000;
+    font-size: 12px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    /*letter-spacing: 4px;*/
+}
+.icon-right p{
+  color: #999999;
+    font-size: .9em;
+    margin: 1em 0 0 0;
+    line-height: 1.8em;
+}
+.w3ls-markets-grid:nth-child(4),.w3ls-markets-grid:nth-child(5),.w3ls-markets-grid:nth-child(6){
+  /*margin:3em 0 0 0;*/
+}
+/*-- //markets --*/
+.modal-dialog {
+    width: auto;
+}
+.agileits-icon-grid:hover, .agileits-icon-grid .icon-right h5:hover{
+  background-color: #339966;
+  cursor: pointer;
+  color: #fff;
+}
+.btn-default{
+  font-size: 1em;
+  text-decoration: none;
+  padding: .5em 2em;
+  text-align: center;
+  background: none;
+  color: #339966;
+  border: solid 2px #339966;
+}
