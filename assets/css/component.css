@@ -66,7 +66,7 @@ perspective effects (not including the modals and the overlay).
 /* Content styles */
 .md-content {
 	color: #fff;
-	background: #e74c3c;
+	/*background: #41b549;*/
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;
@@ -728,4 +728,19 @@ perspective effects (not including the modals and the overlay).
 
 @media screen and (max-width: 32em) {
 	body { font-size: 75%; }
+}
+.width50{
+	/*width: 50%;*/
+}
+.md-close{
+	background: #41b549;
+	color: #fff;
+	border:1px solid #41b549;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 5px 20px;
+}
+.md-close:hover{
+	background-color: transparent;
+	color: #41b549;
 }
