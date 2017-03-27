@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>goLive Eventers - Best event management in Trivandrum</title>
+	<title>goLive Eventers - Design your moments - Best event management in Trivandrum</title>
 	<!-- for-mobile-apps -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Golive, Event management, Wedding, matrimonial, best event management, good eventers" />
+	<meta name="keywords" content="Golive, Event management, Wedding, matrimonial, best event management in Kerala, good event management in Trivandrum, Thiruvananthapuram" />
+	<meta name="description" content="You dream it, we make it" />
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //for-mobile-apps -->
 	<link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet">

@@ -152,7 +152,9 @@
   color:#555;
 }
 .services_li ul li a, .services_li ul li{
-  color: #423F3F;
+  color: #07331d;
+  font-weight: 600;
+  /*font-style: italic;*/
 }
 .services_li ul li a:hover, .services_li ul li:hover{
   color: #26B256;
